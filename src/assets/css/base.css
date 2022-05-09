@@ -1,0 +1,22 @@
+html{
+    background: url(../bg-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+.container{
+    background: #fff;
+    max-width: 1150px;
+    margin: 50px auto;
+    min-height: calc(100vh - 130px);
+    padding: 3rem 3rem 8rem;
+}
